@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Starter Structure</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+  </head>
+  <body>
+    <header id="header"> 
+      <div class="header__container">
+        <div class="header__logo"><a href="index.html"> <span class="logo__title">Studio </span><span class="logo__description">Photography</span></a></div>
+        <nav>
+          <div class="links"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a></div>
+        </nav>
+        <div class="social">
+          <p>FB</p>
+          <p>YT </p>
+          <p>TW</p>
+          <p>IN</p>
+        </div>
+      </div>
+      <div class="header__mobile">
+        <div class="header__logo"><a href="index.html"> <span class="logo__title">Studio </span><span class="logo__description">Photography</span></a></div>
+        <nav>
+          <div class="links"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a></div>
+          <div class="burger">
+            <div class="line"></div>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile__nav">
+        <div class="links"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a></div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div id="upload"> 
+          <div class="uploadContainer">
+            <div class="form">
+              <h2>Image Gallery Upload</h2>
+              <div class="inputContainer">
+                <input type="file" id="inpFile" multiple hidden>
+                <label for="inpFile"><ion-icon name="cloud-upload-outline"></ion-icon>
+                  <h3>Browse File to Upload</h3>
+                  <button id="btnUpload">Upload</button>
+                </label>
+              </div>
+            </div>
+            <div class="inprogress">
+              <div class="uploadProgressContainer">
+                <div class="uploadProgress">
+                  <div class="uploadProgressBar">
+                    <div class="files">
+                      <p>Uploading 3 Files</p>
+                      <p class="percentage">51%</p><span class="progressline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="finished">
+              <div class="uploadProgressContainer">
+                <div class="uploadProgress">
+                  <div class="uploadProgressBar">
+                    <div class="files">
+                      <p class="completed"><span>Uploaded 3 files</span><ion-icon name="checkmark-outline"></ion-icon></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer id="footer">
+          <div class="footer__container">
+            <p>Handcrafted by me &copy; 2021</p>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="assets/scripts/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
